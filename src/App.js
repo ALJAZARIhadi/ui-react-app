@@ -9,7 +9,6 @@ function App() {
     <div className="App" style={{marginTop:"300px",marginLeft:"500px"}}>
       <Material/>
       <UiAlerts/>
-      <UiNavigations/>
     </div>
   );
 }

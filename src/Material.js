@@ -1,7 +1,7 @@
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
-import Chip from "@mimport Checkbox from '@mui/material/Checkbox";
-import Slider from "@mui/material/Slider";
+/* import Chip from "@mimport Checkbox from '@mui/material/Checkbox";
+ */import Slider from "@mui/material/Slider";
 
 
 export default function Material() {
@@ -17,8 +17,8 @@ export default function Material() {
         </Button>
         {/* <Checkbox {...label} defaultChecked color="secondary" /> */}
 
-        <Chip label="primary" color="primary" variant="outlined" />
-        <Chip label="success" color="success" variant="outlined" />
+       {/*  <Chip label="primary" color="primary" variant="outlined" />
+        <Chip label="success" color="success" variant="outlined" /> */}
         <Slider aria-label="Temperature" defaultValue={30} color="secondary" />
       </Stack>
     </>

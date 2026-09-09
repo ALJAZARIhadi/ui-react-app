@@ -22,7 +22,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="App" style={{ marginTop: "50px", marginLeft: "300px", width:"900px" }}>
+      <div className="App" >
         {/* <Material /> */}
         {/* <UiAlerts/> */}
         <Task/>

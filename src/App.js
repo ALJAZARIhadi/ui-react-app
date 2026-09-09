@@ -4,6 +4,7 @@ import Material from "./Material.js";
  */
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { orange, green } from "@mui/material/colors";
+import Task from "./Task.js";
 function App() {
   const theme = createTheme({
     status: {
@@ -21,9 +22,10 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="App" style={{ marginTop: "300px", marginLeft: "500px" }}>
-        <Material />
+      <div className="App" style={{ marginTop: "50px", marginLeft: "300px", width:"900px" }}>
+        {/* <Material /> */}
         {/* <UiAlerts/> */}
+        <Task/>
       </div>
     </ThemeProvider>
   );

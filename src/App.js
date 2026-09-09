@@ -12,10 +12,10 @@ function App() {
     },
     palette: {
       primary: {
-        main: orange[200],
+        main: green[500],
       },
       secondary: {
-        main: green[500],
+        main: green[200],
       },
     },
   });

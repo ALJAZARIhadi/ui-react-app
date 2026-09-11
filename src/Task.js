@@ -16,7 +16,7 @@ export default function Task() {
   };
   const id = React.useId();
   return (
-    <Container maxWidth="md" style={{marginTop:"100px"}}>
+    <Container maxWidth="sm" style={{marginTop:"100px"}}>
       <div>
         <Accordion>
           <AccordionSummary
